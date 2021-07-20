@@ -4,6 +4,7 @@ node_modules/
 *.egg-info/
 .ipynb_checkpoints
 *.tsbuildinfo
+jupyterlab_h5web/labextension
 
 */labextension/*.tgz
 # Created by https://www.gitignore.io/api/python
@@ -108,5 +109,8 @@ dmypy.json
 
 # End of https://www.gitignore.io/api/python
 
-# VSCode
-.vscode
+# vscode ide stuff
+*.code-workspace
+.history
+.vscode/*
+!.vscode/*.template
